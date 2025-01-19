@@ -12,8 +12,8 @@ This is a simple web application written in Go using the `net/http` package. It 
 
 ### Prerequisites
 
-- Go 1.16 or later
-
+- Go 1.23
+  
 ### Running the Application
 
 1. Clone the repository:
