@@ -1,0 +1,37 @@
+<!-- static/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>Essential Tools and Skills for Cloud Engineers</title>
+</head>
+<body>
+    <h1>Essential Tools and Skills for Cloud Engineers</h1>
+    <section>
+        <h2>Key Tools and Skills</h2>
+        <ul>
+            <li><strong>Cloud Platforms:</strong> AWS, Microsoft Azure, Google Cloud Platform</li>
+            <li><strong>Infrastructure as Code (IaC):</strong> Terraform, AWS CloudFormation</li>
+            <li><strong>Containerization and Orchestration:</strong> Docker, Kubernetes</li>
+            <li><strong>Configuration Management:</strong> Ansible, Chef/Puppet</li>
+            <li><strong>Networking:</strong> VPCs, DNS, Load Balancing</li>
+            <li><strong>Security:</strong> IAM, Encryption, Firewalls</li>
+            <li><strong>Monitoring and Logging:</strong> Prometheus/Grafana, ELK Stack</li>
+            <li><strong>Scripting and Automation:</strong> Python, Bash, PowerShell</li>
+            <li><strong>DevOps Practices:</strong> CI/CD pipelines</li>
+            <li><strong>Soft Skills:</strong> Problem-solving, Communication</li>
+        </ul>
+    </section>
+
+    <form action="/submit" method="post">
+        <h2>Share Your Thoughts</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="tools">Tools/Skills:</label><br>
+        <textarea id="tools" name="tools" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
