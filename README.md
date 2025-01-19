@@ -37,6 +37,9 @@ go-web-app/
 ├── static/
 │   ├── css/
 │   │   └── styles.css
+│   ├── images/
+│   │   └── golang-website(1).png
+│   │   └── golang-website(2).png
 │   └── index.html
 │
 └── main.go
@@ -44,4 +47,10 @@ go-web-app/
 
 - **`static/index.html`**: Contains the HTML for the feedback form and a list of cloud engineering tools and skills.
 - **`static/css/styles.css`**: Contains the CSS for styling the page.
+- **`static/images/golang-website.png`**: An image of the website.
 - **`main.go`**: The main Go application file that sets up the server and handles requests.
+
+
+## Looks like this
+
+![Website](static/images/golang-website(1).png)![Website](static/images/golang-website(2).png)
